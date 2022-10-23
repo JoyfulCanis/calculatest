@@ -1,8 +1,8 @@
 const buttons = document.querySelectorAll(".btn");
 const result = document.getElementById("result");
 const clear = document.getElementById("clear");
-const zoomBtn = document.querySelector(".zoom-btn")
-const app = document.querySelector(".calculator")
+const zoomBtn = document.querySelector(".zoom-btn");
+const app = document.querySelector(".calculator");
 
 let answer = "";
 
@@ -21,6 +21,6 @@ clear.addEventListener("click", () => {
 });
 
 zoomBtn.addEventListener("click", () => {
-  app.classList.toggle("big-calculator")
-  result.classList.toggle("big-result")
-})
+  app.classList.toggle("big-calculator");
+  result.classList.toggle("big-result");
+});
