@@ -10,7 +10,7 @@
     "div times plus minus"
     "seven eight nine clear"
     "four five six clear"
-    "one two three dot"
+    "one two threes dot"
     "zero zero zero equal"
     "zoom zoom zoom zoom"
     ;
@@ -72,7 +72,7 @@ button:active {
 }
 
 
-.one{grid-area: one;}.two{grid-row: two;}.three{grid-row: three;}.four{grid-area: four;}.five{grid-area: five;}
+.one{grid-area: one;}.two{grid-row: two;}.three{grid-row: threes;}.four{grid-area: four;}.five{grid-area: five;}
 .six{grid-area: six;}.seven{grid-area: seven;}.eight{grid-area: eight;}.nine{grid-area: nine;}.zero{grid-area: zero;}
 .dot{grid-area: dot;}.plus{grid-area: plus;}.div{grid-area: div;}.times{grid-area: times;}.minus{grid-area: minus;}
 #equal{grid-area: equal;}#clear{grid-area: clear;}.zoom-btn{grid-area: zoom;}
