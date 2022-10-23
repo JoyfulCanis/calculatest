@@ -4,7 +4,7 @@
     margin: 0 auto;
     width: 300px;;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows:70px 30px repeat(5, 50px);
+    grid-template-rows:70px 34px repeat(5, 50px);
     grid-template-areas: 
     "result result result result"
     "div times plus minus"
@@ -16,11 +16,12 @@
     ;
     border: 2px solid rgb(11, 154, 154);
     border-radius: 8px;
+    transition: 0.4s ease-in-out;
 }
 
 .big-calculator{
     width: 800px;
-    grid-template-rows: 120px 60px repeat(5, 100px) ;
+    grid-template-rows: 120px 68px repeat(5, 100px) ;
 }
 
 h1{
@@ -35,6 +36,7 @@ h1{
     border-radius: 12px 12px 0px 0px;
     padding:4px;
     line-height: 45px;
+    transition: 0.4s ease-in-out;
 }
 
 .big-result{
@@ -49,7 +51,7 @@ button{
     border: 1px solid white;
     border-radius: 4px;
     cursor:pointer;
-    transition: 0.1s ease-in;
+    transition: 0.1s ease-in, font-size 0.2s ease-in;
     font-size: 16px;
 }
 button:hover{
@@ -60,7 +62,14 @@ button:active {
     font-size: 22px;
     border: 2px solid;
     border-radius: 100px;;
-  }
+}
+.upper-btn{
+    font-size:30px;
+}
+
+.upper-btn:active{
+    font-size: 42px;
+}
 
 
 .one{grid-area: one;}.two{grid-row: two;}.three{grid-row: three;}.four{grid-area: four;}.five{grid-area: five;}

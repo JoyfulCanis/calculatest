@@ -23,4 +23,10 @@ clear.addEventListener("click", () => {
 zoomBtn.addEventListener("click", () => {
   app.classList.toggle("big-calculator");
   result.classList.toggle("big-result");
+  buttons.forEach((button) => {
+    button.classList.toggle("upper-btn");
+    document.querySelector(".zoom-btn").classList.toggle("upper-btn");
+    document.querySelector(".equal").classList.toggle("upper-btn");
+    document.querySelector(".clear").classList.toggle("upper-btn");
+  });
 });
